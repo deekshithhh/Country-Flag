@@ -7,7 +7,7 @@ import { useEffect,useState } from 'react';
 
 function CountryCard({ name, flag}){
 
-    console.log(name,flag)
+   // console.log(name,flag)
 return(
     <div>
 
