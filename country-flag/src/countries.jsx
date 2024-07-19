@@ -43,7 +43,7 @@ const[country,setCountry]=useState([])
           setCountry(data)
           return data;
         } catch (error) {
-          console.error('Error fetching albums:', error);
+          console.error('Error fetching data:', error);
         }
       }
       callcountries()
