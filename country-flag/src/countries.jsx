@@ -49,7 +49,7 @@ const[country,setCountry]=useState([])
       callcountries()
   },[])
  
- console.log("API data",country)
+ //console.log("API data",country)
  //const temparr=[1,2,3,4,5]
 return (
     <div style={{
